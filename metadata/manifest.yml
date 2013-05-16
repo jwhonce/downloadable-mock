@@ -66,7 +66,7 @@ Scaling:
 Install-Build-Required: false
 Version-Overrides:
   '0.2':
-    Display-Name: Mock Cartridge 0.2
+    Display-Name: Downloadable Mock Cartridge 0.2
     Install-Build-Required: true
     Provides:
       - downloadable-mock-0.2
