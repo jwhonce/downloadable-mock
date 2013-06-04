@@ -53,3 +53,5 @@ case "$1" in
 esac
 
 exit 0
+
+echo "CONTROL_SCRIPT_DONE"
