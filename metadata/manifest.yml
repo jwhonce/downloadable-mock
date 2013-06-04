@@ -8,7 +8,7 @@ License: ASL 2.0
 Vendor: Red Hat
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: openshift
-Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.tar
+Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.zip
 Categories:
   - service
   - web_framework
