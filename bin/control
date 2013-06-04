@@ -1,4 +1,5 @@
 #!/bin/bash -eu
+echo "CONTROL_SCRIPT"
 
 source $OPENSHIFT_CARTRIDGE_SDK_BASH
 source $OPENSHIFT_DOWNLOADABLEMOCK_DIR/mock.conf
