@@ -36,10 +36,10 @@ Subscribes:
     Type: "ENV:NET_TCP:nosqldb:connection-info"
     Required: false
 Endpoints:
-  - Private-IP-Name:   EXAMPLE_IP1
-    Private-Port-Name: EXAMPLE_PORT1
+  - Private-IP-Name:   IP
+    Private-Port-Name: PORT
     Private-Port:      8080
-    Public-Port-Name:  EXAMPLE_PUBLIC_PORT1
+    Public-Port-Name:  PROXY_PORT
     Private-IP-Name:   SSL_IP
     Private-Port-Name: SSL_PORT
     Private-Port:      8443
