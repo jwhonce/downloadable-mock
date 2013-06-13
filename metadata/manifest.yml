@@ -36,6 +36,11 @@ Subscribes:
     Type: "ENV:NET_TCP:nosqldb:connection-info"
     Required: false
 Endpoints:
+  - Private-IP-Name:   SSL_IP
+    Private-Port-Name: SSL_PORT
+    Private-Port:      8443
+    Public-Port-Name:  SSL_PROXY_PORT
+    Options:           { "ssl_to_gear": true } 
     Mappings:
       - Frontend:      ""
         Backend:       ""
@@ -45,11 +50,6 @@ Endpoints:
       - Frontend:      "/health"
         Backend:       ""
         Options:       { health: true }
-  - Private-IP-Name:   SSL_IP
-    Private-Port-Name: SSL_PORT
-    Private-Port:      8443
-    Public-Port-Name:  SSL_PROXY_PORT
-    Options:           { "ssl_to_gear": true } 
 Scaling:
   Min: 1
   Max: -1
