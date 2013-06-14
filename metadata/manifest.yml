@@ -7,7 +7,7 @@ Versions: ['0.1', '0.2']
 License: ASL 2.0
 Vendor: 123_test-bmeng
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: openshift
+Cartridge-Vendor: 123_test-openshift
 Source-Url: https://github.com/bmeng/downloadable-mock.git
 Categories:
   - service
