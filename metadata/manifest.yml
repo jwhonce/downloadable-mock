@@ -5,7 +5,7 @@ Description: "A downloadable mock cartridge for development use only."
 Version: '0.1'
 Versions: ['0.1', '0.2']
 License: ASL 2.0
-Vendor: Red Hat
+Vendor: 123_test-bmeng
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: openshift
 Source-Url: https://github.com/bmeng/downloadable-mock.git
@@ -40,11 +40,6 @@ Endpoints:
     Private-Port-Name: PORT
     Private-Port:      8080
     Public-Port-Name:  PROXY_PORT
-    Private-IP-Name:   SSL_IP
-    Private-Port-Name: SSL_PORT
-    Private-Port:      8443
-    Public-Port-Name:  SSL_PROXY_PORT
-    Options:           { "ssl_to_gear": true }
     Mappings:
       - Frontend:      ""
         Backend:       ""
