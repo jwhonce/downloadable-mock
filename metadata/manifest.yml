@@ -8,9 +8,9 @@ License: ASL 2.0
 Vendor: 123_test_bmeng
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: 123_test_openshift
-#Source-Url: https://github.com/bmeng/downloadable-mock.git
+Source-Url: https://github.com/bmeng/downloadable-mock.git
 #Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.tar
-Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.tar.gz
+#Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.tar.gz
 #Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.zip
 Categories:
   - service
@@ -39,10 +39,10 @@ Subscribes:
     Type: "ENV:NET_TCP:nosqldb:connection-info"
     Required: false
 Endpoints:
-  - Private-IP-Name:   IP
-    Private-Port-Name: PORT
+  - Private-IP-Name:   EXAMPLE_IP
+    Private-Port-Name: EXAMPLE_PORT
     Private-Port:      8080
-    Public-Port-Name:  PROXY_PORT
+    Public-Port-Name:  EXAMPLE_PROXY_PORT
     Mappings:
       - Frontend:      ""
         Backend:       ""
