@@ -13,7 +13,7 @@ Cartridge-Vendor: 123_test_openshift
 #Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.tar.gz
 #Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.zip
 #Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/test.zip
-Source-Url: file:///home/bmeng/openshift_testdir/github/downloadable-mock/
+Source-Url: file:///var/lib/openshift/51cc0a83dbd93c4be9000048/app-root/data/downloadable-mock
 Categories:
   - service
   - web_framework
