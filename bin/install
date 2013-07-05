@@ -8,6 +8,7 @@ case "$1" in
     version="$2"
 esac
 
+echo "&#44592;&#51088;&#36789;"
 #mkdir $OPENSHIFT_HOMEDIR/testdir
 source $OPENSHIFT_DOWNLOADABLEMOCK_DIR/mock.conf
 
