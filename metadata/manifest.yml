@@ -10,8 +10,8 @@ Cartridge-Version: 0.0.1
 Cartridge-Vendor: 123_test_openshift
 #Source-Url: https://github.com/bmeng/downloadable-mock.git
 #Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.tar
-#Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.tar.gz
-Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.zip
+Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.tar.gz
+#Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.zip
 #Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/test.zip
 #Source-Url: file:///root/downloadable-mock
 Categories:
