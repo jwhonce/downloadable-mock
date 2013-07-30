@@ -2,7 +2,7 @@ Name: downloadable-mock
 Cartridge-Short-Name: DOWNLOADABLEMOCK
 Display-Name: Downloadable Mock Cartridge 0.1
 Description: "A downloadable mock cartridge for development use only."
-Version: '0.1'
+Version: 'a0.1'
 Versions: ['0.1', '0.2']
 License: ASL 2.0
 Vendor: 123_test_bmeng
