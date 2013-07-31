@@ -14,7 +14,7 @@ Source-Url: https://github.com/bmeng/downloadable-mock.git
 #Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/downloadable-mock.zip
 #Source-Url: https://github.com/bmeng/downloadable-mock/raw/master/test.zip
 #Source-Url: file:///root/downloadable-mock
-Source-Md5: 77d714d64a3ad4cd47293a7c017abd8eX
+Source-Md5: 29776d74a050efccb3306fe07b2885e0
 Categories:
   - service
   - web_framework
