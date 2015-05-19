@@ -10,6 +10,7 @@ esac
 
 #mkdir $OPENSHIFT_HOMEDIR/testdir
 source $OPENSHIFT_DOWNLOADABLEMOCK_DIR/mock.conf
+PATH=$PATH:/usr/bin:/bin
 
 mkdir -p $MOCK_STATE
 touch $MOCK_STATE/install_called

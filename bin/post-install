@@ -9,6 +9,7 @@ case "$1" in
 esac
 
 source $OPENSHIFT_DOWNLOADABLEMOCK_DIR/mock.conf
+PATH=$PATH:/usr/bin:/bin
 
 mkdir -p $MOCK_STATE
 touch $MOCK_STATE/post_install_called

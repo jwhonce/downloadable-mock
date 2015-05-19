@@ -4,6 +4,8 @@ echo "CONTROL_SCRIPT"
 source $OPENSHIFT_CARTRIDGE_SDK_BASH
 source $OPENSHIFT_DOWNLOADABLEMOCK_DIR/mock.conf
 
+PATH=$PATH:/usr/bin:/bin
+
 function start {
   touch $MOCK_STATE/control_start
   touch $MOCK_STATE/mock_process
